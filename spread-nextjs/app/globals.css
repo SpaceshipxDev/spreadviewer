@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @custom-variant dark (&:is(.dark *));
 
 :root {
@@ -122,6 +118,10 @@
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @layer base {
   * {
